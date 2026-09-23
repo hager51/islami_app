@@ -25,7 +25,6 @@ class _SebhaScreenState extends State<SebhaScreen> {
   void _onTapBead() {
     setState(() {
       _counter++;
-      // كل خرزة = جزء من الدورة الكاملة
       _rotationTurns += 1 / _target;
 
       if (_counter >= _target) {
@@ -62,7 +61,6 @@ class _SebhaScreenState extends State<SebhaScreen> {
                 textAlign: TextAlign.center,
                 textDirection: TextDirection.rtl,
                 style: TextStyle(
-                  // اتظبط بالظبط على أرقام فيجما: Size 36 - Weight 700 - Line height 100% - Letter spacing 0
                   color: AppColors.white,
                   fontFamily: "Janna LT",
                   fontSize: 36,
