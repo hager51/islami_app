@@ -3,7 +3,6 @@ import 'package:islam_c20_online/core/theme/app_colors.dart';
 import 'package:islam_c20_online/modules/layout/screens/layout_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// موديل بسيط لكل صفحة onboarding
 class _OnboardingItem {
   final String image;
   final String? title;
@@ -16,7 +15,6 @@ class _OnboardingItem {
   });
 }
 
-// أسامي الصور الحقيقية من assets/onboarding/
 const List<_OnboardingItem> _items = [
   _OnboardingItem(
     image: "assets/onboarding/welcome_calligraphy.png",
